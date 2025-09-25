@@ -73,4 +73,4 @@ packet-sniffer/
 
 ## Disclaimer
 
-This project is created for **educational and research purposes only**
+This project is created for **educational and research purposes only**.
