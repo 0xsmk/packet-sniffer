@@ -21,35 +21,36 @@ The sniffer displays packet information in real time and can be extended with fi
 - Scapy
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your_username>/packet-sniffer.git
-   cd packet-sniffer
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your_username>/packet-sniffer.git
+cd packet-sniffer
 ````
 
-2. Install dependencies:
+### 2. Install dependencies
 
-   ```bash
-   pip install scapy
-   ```
+```bash
+pip install scapy
+```
 
 ## Usage
 
 Run the sniffer with administrator privileges (required for accessing the network interface).
 
-### Capture packets on the default interface, unlimited:
+### Capture packets on the default interface (unlimited)
 
 ```bash
 sudo python3 sniffer.py
 ```
 
-### Capture 20 packets on a specific interface (e.g., `en0` on macOS):
+### Capture 20 packets on a specific interface (e.g., `en0` on macOS)
 
 ```bash
 sudo python3 sniffer.py -i en0 -c 20
 ```
 
-### Capture 50 packets on Linux Wi-Fi interface (`wlan0`):
+### Capture 50 packets on Linux Wi-Fi interface (`wlan0`)
 
 ```bash
 sudo python3 sniffer.py -i wlan0 -c 50
@@ -74,3 +75,4 @@ packet-sniffer/
 ## Disclaimer
 
 This project is created for **educational and research purposes only**.
+
