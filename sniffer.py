@@ -14,7 +14,7 @@ def main():
     parser.add_argument("-c", "--count", help="Number of packets to capture (default: 0 = infinite)", type=int, default=0)
     args = parser.parse_args()
 
-    print("Starting packet sniffer...")
+    print("Starting packet sniffer....")
     sniff(iface=args.iface, prn=packet_handler, count=args.count)
 
 if __name__ == "__main__":
