@@ -24,7 +24,7 @@ The sniffer displays packet information in real time and can be extended with fi
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your_username>/packet-sniffer.git
+git clone https://github.com/0xsmk/packet-sniffer.git
 cd packet-sniffer
 ````
 
